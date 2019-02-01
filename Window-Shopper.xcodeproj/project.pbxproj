@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		66CF3CF722040AB100D1DBCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3CF622040AB100D1DBCF /* AppDelegate.swift */; };
-		66CF3CF922040AB100D1DBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3CF822040AB100D1DBCF /* ViewController.swift */; };
+		66CF3CF922040AB100D1DBCF /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3CF822040AB100D1DBCF /* MainVC.swift */; };
 		66CF3CFC22040AB100D1DBCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CF3CFA22040AB100D1DBCF /* Main.storyboard */; };
 		66CF3CFE22040AB200D1DBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CF3CFD22040AB200D1DBCF /* Assets.xcassets */; };
 		66CF3D0122040AB200D1DBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CF3CFF22040AB200D1DBCF /* LaunchScreen.storyboard */; };
+		66CF3D0B22040CDC00D1DBCF /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CF3D0A22040CDC00D1DBCF /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		66CF3CF322040AB100D1DBCF /* Window-Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Window-Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CF3CF622040AB100D1DBCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66CF3CF822040AB100D1DBCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66CF3CF822040AB100D1DBCF /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		66CF3CFB22040AB100D1DBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66CF3CFD22040AB200D1DBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66CF3D0022040AB200D1DBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66CF3D0222040AB200D1DBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CF3D0A22040CDC00D1DBCF /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		66CF3CF522040AB100D1DBCF /* Window-Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				66CF3D0922040CAE00D1DBCF /* Views */,
+				66CF3D0822040B5E00D1DBCF /* Controller */,
 				66CF3CF622040AB100D1DBCF /* AppDelegate.swift */,
-				66CF3CF822040AB100D1DBCF /* ViewController.swift */,
 				66CF3CFA22040AB100D1DBCF /* Main.storyboard */,
 				66CF3CFD22040AB200D1DBCF /* Assets.xcassets */,
 				66CF3CFF22040AB200D1DBCF /* LaunchScreen.storyboard */,
 				66CF3D0222040AB200D1DBCF /* Info.plist */,
 			);
 			path = "Window-Shopper";
+			sourceTree = "<group>";
+		};
+		66CF3D0822040B5E00D1DBCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66CF3CF822040AB100D1DBCF /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		66CF3D0922040CAE00D1DBCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66CF3D0A22040CDC00D1DBCF /* CurrencyTxtField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66CF3CF922040AB100D1DBCF /* ViewController.swift in Sources */,
+				66CF3D0B22040CDC00D1DBCF /* CurrencyTxtField.swift in Sources */,
+				66CF3CF922040AB100D1DBCF /* MainVC.swift in Sources */,
 				66CF3CF722040AB100D1DBCF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
